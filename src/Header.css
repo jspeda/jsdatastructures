@@ -2,5 +2,18 @@
   display: flex;
   border: 1px solid red;
   justify-content: space-around;
-  font-size: 30px;
+  font-size: 25px;
+  padding: 1%;
+  text-decoration: none;
+  color: #3c3c3c;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.4s, text-decoration 0.5s;
+}
+
+a:hover {
+  color: #d5364e;
 }
