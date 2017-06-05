@@ -25,5 +25,5 @@ const Root = () => {
 
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Root />, document.getElementById('root'));
 registerServiceWorker();
