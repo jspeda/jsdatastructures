@@ -1,19 +1,18 @@
 .header {
   display: flex;
-  border: 1px solid red;
   justify-content: space-around;
   font-size: 25px;
   padding: 1%;
   text-decoration: none;
   color: #3c3c3c;
+  background: #6be96d;
 }
 
 a {
   text-decoration: none;
-  color: inherit;
-  transition: color 0.4s, text-decoration 0.5s;
+  color: white;
 }
 
 a:hover {
-  color: #d5364e;
+  border-bottom: solid 1px white;
 }
